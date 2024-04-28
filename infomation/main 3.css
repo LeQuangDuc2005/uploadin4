@@ -1,0 +1,110 @@
+.imgOfduc{
+    height: 540px ;
+    width: 700px;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+.box3-1{
+    position: absolute;
+    top: 820px;
+    right: 200px;
+    font-size: 35px;
+    font-family:Tahoma;
+    color: rgb(42, 42, 102);
+}
+.box3-2{
+    position: absolute;
+    top: 910px;
+    right: 260px;
+    font-size: 17px;
+    color:rgb(99, 101, 103);
+    
+}
+.box3-3{
+    position: absolute;
+    top: 1020px;
+    right: 400px;
+    font-size: 25px;
+       .box3-3-2{
+        position: relative;
+        top: 20px;
+        box-shadow: 7px 3px 1px #f1bd79;
+        padding: 10px 80px 10px 20px;
+        background-color: #eff2fb;
+        border-radius: 40px;
+        box-shadow: 7px 3px 1px rgb(95, 18, 195);
+        color: rgb(47, 47, 106);
+       }
+       .box3-3-1{
+        padding: 10px 80px 10px 20px;
+        background-color: #eff2fb;
+        border-radius: 40px;
+        box-shadow: 7px 3px 1px rgb(231, 180, 69);
+        color: rgb(47, 47, 106);
+       }
+        .box3-3-3{
+            background-color: #eff2fb;
+            border-radius: 20px;
+            border-top-left-radius: 0px;
+            box-shadow: 7px 5px 1px #4b2393;
+            color: rgb(47, 47, 106);
+            position: absolute;
+            top: 240px;
+            right: 220px;
+            font-size: 18px;
+            background-color: #743cdb;
+            padding: 20px 30px 20px 20px;
+            color: aliceblue;
+            transition: all 0.3s ease-out 0s;
+        }
+}
+.box3-3-3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out 0s;
+}
+.box3-3-4 {
+    position: absolute;
+    top: 255px;
+    left: 400px;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    font-size: 45px;
+}
+.view_moreOFbox3 a p{
+    display: inline-block;
+    font-size: 16px;
+    border: 3px inset #d6f9ff;
+    padding: 13px 15px 13px 5px;
+    border-radius: 100px;
+    color: #0f0f69;
+    position: absolute;
+    top: 700px;
+    left: 1410px;
+    animation: slideInLeft 1.0s ease-out 0s ;
+    transition: all 0.2s ease 0s;
+    box-shadow: 2px 3px 2px #1c273d;
+    
+}
+.view_moreOFbox3 a p:hover{
+    text-shadow: 0 0 5px #ffffff;  
+    transition: all 0.4s ease 0s; 
+    transform: scale(1.1);
+    color: rgb(86, 159, 232);
+    text-shadow: 0 0 8px #0095ff,
+                 0 0 15px #4cbbef,
+                 0 0 22px #99e0ee;
+    box-shadow: 0 0 8px #0095ff;
+}
+.view_moreOFbox3{
+    animation: scroll 1s infinite;
+}
+.lol{
+    width: 100px;
+    position: absolute;
+    top: 750px;
+    right: 250px;
+    font-family:Tahoma;
+    color: rgb(61, 47, 47);
+}

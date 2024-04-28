@@ -1,0 +1,159 @@
+.imgOfcamera{
+      height: 600px ;
+      width: 620px;
+      position: absolute;
+      top: 1490px;
+      right: 0px;
+      border: 1px solid;
+      border-radius:100% 0% 84% 16% / 77% 100% 0% 23%  ;
+      background-color: #e7981a;
+}
+.boxshadowOfbox4{
+      width: 1150px;
+      height: 600px;
+      background-image: url(./img/cool-background.svg);
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      position: absolute;
+      top: 1500px;
+      left: 0;   
+}
+.box4-1{
+      position: absolute;
+      top: 1550px;
+      left: 200px;
+      color: #eeebe6;;
+      font-size: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.khungphantram{
+      position: absolute;
+      top: 150px;
+}
+.ONE{
+      position: absolute;
+      top: 1555px;
+      left: 160px;
+      font-size: 18px;
+      color: #eeebe6;
+           .One{
+            padding-left: 355px;
+           }
+}
+.one{
+      height: 10px;
+      width: 500px;
+      position: absolute;
+      top: 1600px;
+      left: 200px;
+     background-color: aliceblue;          
+}
+.two{
+      position: absolute;
+      top: 1600px;
+      height: 10px;
+      left: 200px;
+      width: 420px;
+      background-color: #ff8c00;
+}
+.THREE{
+      position: absolute;
+      top: 1605px;
+      left: 160px;
+      font-size: 18px;
+      color: #eeebe6;
+      .Three{
+            padding-left: 385px;
+      }
+}
+.three{
+      height: 10px;
+      width: 500px;
+      position: absolute;
+      top: 1650px;
+      left: 200px;
+      background-color: #eeebe6;
+}
+.four{
+      position: absolute;
+      top: 1650px;
+      left: 200px;
+      width: 470px;
+      height: 10px;
+      background-color: #743cdb;
+}
+.FIVE{
+      position: absolute;
+      top: 1655px;
+      left: 160px;
+      font-size: 18px;
+      color: #eeebe6;
+           .Five{
+            padding-left: 414px;
+           }
+}
+.five{
+      height: 10px;
+      width: 500px;
+      position: absolute;
+      top: 1700px;
+      left: 200px;
+      background-color: aliceblue;
+}
+.six{
+      position: absolute;
+      top: 1700px;
+      left: 200px;
+      width: 480px;
+      height: 10px;
+      background-color: #ff9100;
+}
+.SEVEN{
+      position: absolute;
+      top: 1705px;
+      left: 162px;
+      font-size: 18px;
+      color: #eeebe6;
+            .Seven{
+                  padding-left: 417px;
+            }
+}
+.seven{
+      height: 10px;
+      width: 500px;
+      position: absolute;
+      top: 1750px;
+      left: 200px;
+      background-color: aliceblue;
+}
+.eight{
+      position: absolute;
+      top: 1750px;
+      left: 200px;
+      width: 450px;
+      height: 10px;
+      background-color: #743cdb;
+}
+
+
+.footer>a>i{
+      padding-left: 15px;
+      color: #ffea00;
+      font-size: 20px;
+}
+.footer>a{
+      color: #1fb8ff;
+}
+.footer{
+      position: absolute;
+      top: 2080px;
+      background-color: #23211d;
+      width: 1489px;
+      left: 0;
+      padding: 15px ;
+      text-align: center;
+}

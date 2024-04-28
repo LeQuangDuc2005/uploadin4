@@ -1,0 +1,287 @@
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color: #181047;
+    width: 1200px;
+    height: 250px;
+    position: absolute;
+    bottom: 40px;
+    left: 170px;
+    border-radius: 25px;
+         nav{
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+         }
+         nav p{
+            font-size: 18px;
+         }
+         a{
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 05px;
+         }
+         .boxOfcre{
+            animation: opacity 3s ease 0s;
+            text-align: center;
+            position: relative;
+            bottom: 40px;
+            padding-top: 40px;
+            height: 285px;
+            width: 250px;
+            box-shadow: -3px 0px 10px rgb(22, 22, 22);
+            border-radius: 30px;
+            background-image: url(./img/dog.jpg);
+            background-size: cover;
+         }
+         .Learn3{
+            font-size: 18px;
+               color: rgb(255, 255, 255);
+               text-decoration: none;
+               padding: 05px;
+               position: relative;
+               top: 140px;
+         }
+         .Learn3:hover{
+            color: rgb(241, 255, 48);
+            text-shadow: 0 0 5px rgb(241, 255, 48);
+             }
+}
+
+
+section{
+   min-width: 100vh;
+   padding: 10rem 12% 10rem;
+}
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15rem;
+}
+.home-content{
+display: flex;
+flex-direction: column;
+align-items: baseline;
+text-align: left;
+justify-content: center;
+position: absolute;
+   top:250px;
+   right: 150px;
+}
+.page1{
+   font-size: 39px;
+}
+span{
+   color: var(--main-color);
+}
+.logo span{
+   color: var(--main-color);
+}
+.home-content h3{
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+   font-size: 5.5rem;
+}
+.home-content h1{
+   font-size: 12.5rem;
+   font-weight: 700;
+   margin-top: 1.5rem;
+   line-height: 1;
+}
+.btn{
+   display: inline-block;
+   padding: 1rem 2.8rem;
+   background: var(--main-color);
+   box-shadow: 0 0 25px var(--main-color);
+   border-radius: 4rem;
+   font-size: 1.6rem;
+   color: black;
+   border: 2px solid transparent;
+   letter-spacing: 0.1rem;
+   font-weight: 600;
+   transition: 0.3s ease-in-out;
+   cursor: pointer;
+}
+.btn:hover{
+   transform:  scale(1.05);
+   box-shadow: 0 0 50px var(--main-color);
+}
+.btn-group{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 20px;
+}
+.btn-group :nth-of-type(2){
+   background-color: rgba(0, 0, 0, 0.294);
+   color: var(--main-color);
+   border: 2px solid var(--main-color);
+   box-shadow: 0 0 25px transparent;
+}
+.btn-group a:nth-of-type(2):hover{
+   box-shadow: 0 0 25px var(--main-color);
+   background-color: var(--main-color);
+   color: rgb(0, 0, 0);
+}
+
+.text-animation span{
+   position: relative;
+}
+.text-animation span::before{
+   content: "Web Developer";
+   color: var(--main-color);
+   animation: words 20s infinite;
+}
+.text-animation span::after{
+   content: " ";
+   background-color: var(--bg-color);
+   position: absolute;
+   width: calc(100% + 8px);
+   height: 100%;
+   border-left: 3px solid var(--bg-color);
+   right: -8px;
+   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+@keyframes cursor{
+   to{
+       border-left:  2px solid var(--main-color);
+   }
+}
+@keyframes words{
+   0%,
+   20%{
+       content:"VNUER";
+   }
+   21%,
+   40%{
+       content: "Web Designer";
+   }
+   41%,
+   60%{
+       content:"UI/UX Designer" ;
+   }
+   61%,
+   80%{
+       content: "Web Developer";
+   }
+   81%,
+   100%{
+       content: "Software Tester";
+   }
+}
+@keyframes typing{
+   10%,
+   15%,
+   30%,
+   35%,
+   50%,
+   55%,
+   70%,
+   75%,
+   90%,
+   95%{
+       width:0;
+   }
+   5%,
+   20%,
+   25%,
+   40%,
+   45%,
+   60%,
+   65%,
+   80%,
+   85%{
+       width :calc(100% + 8px);
+   }
+}
+
+
+
+
+.box2-1{
+   animation: opacity 1s ease 0s;
+      nav p{
+         font-size: 18px;
+         }
+               .Learn1{
+               font-size: 18px;
+               color: rgb(255, 255, 255);
+               text-decoration: none;
+               padding: 05px;
+                }
+      .Learn1:hover{
+            color: rgb(241, 255, 48);
+            text-shadow: 0 0 5px rgb(241, 255, 48);
+             }
+}
+.box2-2{
+   animation: opacity 2s ease 0s;
+    i{
+      font-size: 65px;
+      padding-left: 40px;
+      position: relative;
+      top: 20px;
+      right: 10px;
+      color: rgb(255, 153, 29);
+    }
+    p{
+      position: relative;
+      top: 20px;
+    }
+    .Learn2{
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      position: relative;
+      top: 33px;
+      left: 20px;
+       }
+.Learn2:hover{
+   color: rgb(241, 255, 48);
+   text-shadow: 0 0 5px rgb(241, 255, 48);
+    }
+    
+}
+.box2-3{
+   animation: opacity 4s ease 0s;
+   i{
+      font-size: 65px;
+      padding-left: 50px;
+      position: relative;
+      top: 20px;
+      color: rgb(255, 153, 29);
+   }
+   p{
+      position: relative;
+      top: 20px;
+   }
+   .Learn4{
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      position: relative;
+      top: 52px;
+      left: 20px;
+       }
+.Learn4:hover{
+   color: rgb(241, 255, 48);
+   text-shadow: 0 0 5px rgb(241, 255, 48);
+    }
+}
+.boxOfcre i{
+   font-size: 85px;
+   position: absolute;
+   right: 60px;
+   top: 30px;
+   color: #ccccf9;
+   background-color: #181047;
+   border-radius: 50%;
+   padding: 15px 15PX 20px 22px;
+}
+.boxOfcre>p{
+   position: relative;
+   top: 120px;
+}
